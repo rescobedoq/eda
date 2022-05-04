@@ -383,6 +383,8 @@ Primer repositorio en GitHub
 - Cree un nuevo proyecto personal y desarrolle el ejercicio resuelto en clase. Haga 3 commits como mínimo y muéstrelos. Commit para "¡Hola mundo!", otro para "Bienvenida al curso" y otro para imprimir su nombre.
 - Cree un proyecto grupal para trabajo colaborativo (de 3 a 5 integrantes).
 - Cree un archivo por cada tema del manual de java (https://www.w3schools.com/java/default.asp), haga commit e inluyalo en su informe grupal (Dividanse los temas).
+    - Java Tutorial
+    - Java Methods
 - Cree ramas para cada integrante y cada cierto tiempo una las ramas al main. No elimine nada para evidenciar ramas, main y commits.
 
 #
