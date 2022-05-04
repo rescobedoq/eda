@@ -85,7 +85,7 @@
 <details>
 <summary>COMPETENCIAS</summary>
 
--C.m. Construye responsablemente soluciones haciendo uso de estructuras de datos y algoritmos, siguiendo un proceso adecuado para resolver problemas computacionales que se ajustan al uso de los recursos disponibles y a especificaciones concretas.
+- C.m. Construye responsablemente soluciones haciendo uso de estructuras de datos y algoritmos, siguiendo un proceso adecuado para resolver problemas computacionales que se ajustan al uso de los recursos disponibles y a especificaciones concretas.
 
 </details>
 
@@ -381,8 +381,9 @@ Primer repositorio en GitHub
 - Cree una cuenta de usuario en GitHub usando su correo institucional.
 - [opcional por ahora] Configure su cuenta de estudiante (https://education.github.com/pack).
 - Cree un nuevo proyecto personal y desarrolle el ejercicio resuelto en clase. Haga 3 commits como mínimo y muéstrelos. Commit para "¡Hola mundo!", otro para "Bienvenida al curso" y otro para imprimir su nombre.
+- Cree un proyecto grupal para trabajo colaborativo (de 3 a 5 integrantes).
 - Cree un archivo por cada tema del manual de java (https://www.w3schools.com/java/default.asp), haga commit e inluyalo en su informe grupal (Dividanse los temas).
-- Cree un proyecto grupal para trabajar en grupo. Cree ramas para cada integrante y cada cierto tiempo una las ramas al main. No elimine nada para evidenciar ramas, main y commits.
+- Cree ramas para cada integrante y cada cierto tiempo una las ramas al main. No elimine nada para evidenciar ramas, main y commits.
 
 #
 
