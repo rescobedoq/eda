@@ -40,6 +40,7 @@
 <tr><td colspan="6">RECURSOS:
     <ul>
         <li>https://www.w3schools.com/java/</li>
+        <li>https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-enterprise-java-and-web-developers</li>
     </ul>
 </td>
 </<tr>
@@ -93,7 +94,26 @@
 
 #
 - ArrayList
+    -   ```sh
+        ArrayList<String> alumnos = new ArrayList<String>();
+        ArrayList<Integer> notas = new ArrayList<Integer>();
+
+        alumnos.add("HENRY");
+		alumnos.add("DIEGO");
+		alumnos.add("RICHART");
+		alumnos.add("GABRIEL");
+
+        System.out.println(alumnos.hashCode());
+        System.out.println(alumnos.isEmpty());
+        System.out.println(alumnos.size());
+        ```
 - Iterador
+    -   ```sh
+        Iterator<String> itA = alumnos.iterator();		
+		while(itA.hasNext()) {
+			System.out.println(itA.next());
+		}
+        ```
 - Array de Array
 
 ## EJERCICIOS PROPUESTOS
