@@ -91,6 +91,8 @@
 ### MARCO CONCEPTUAL
 
 - https://www.w3schools.com/java/
+- https://docs.oracle.com/javase/7/docs/api/java/util/List.html
+- https://docs.oracle.com/javase/tutorial/java/generics/types.html
 
 ## EJERCICIO RESUELTO POR EL DOCENTE
 
@@ -221,11 +223,15 @@
 
     - https://docs.oracle.com/javase/tutorial/java/generics/types.html
 
-    - 1. T data: la información almacenada en el nodo
-    - 2. Node<T> nextNode: una referencia al siguiente nodo
+    -   ```sh 
+        T data: la información almacenada en el nodo
+        Node<T> nextNode: una referencia al siguiente nodo
+        ```
 
     - (ii) Implementar una clase List<T> esta clase debe contener al menos esta propiedad
-    - 1. Node<T> root: la referencia sobre el nodo inicial
+    -   ```sh 
+        Node<T> root: la referencia sobre el nodo inicial
+        ```
 
 #
 
