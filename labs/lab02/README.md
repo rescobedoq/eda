@@ -41,6 +41,8 @@
     <ul>
         <li>https://www.w3schools.com/java/</li>
         <li>https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-enterprise-java-and-web-developers</li>
+        <li>https://docs.oracle.com/javase/7/docs/api/java/util/List.html</li>
+        <li>https://docs.oracle.com/javase/tutorial/java/generics/types.html</li>
     </ul>
 </td>
 </<tr>
@@ -195,13 +197,16 @@
 #
 
 ## CUESTIONARIO
-- ¿Que diferencia hay entre un List y un ArrayList en Java?
+- ¿Qué diferencia hay entre un List y un ArrayList en Java?
+- ¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java?
 
 #
 
 ## REFERENCIAS
-- https://www.w3schools.com/java/
-
+    - https://www.w3schools.com/java/
+    - https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-enterprise-java-and-web-developers
+    - https://docs.oracle.com/javase/7/docs/api/java/util/List.html
+    - https://docs.oracle.com/javase/tutorial/java/generics/types.html
 #
 
 [license]: https://img.shields.io/github/license/rescobedoq/pw2?label=rescobedoq
