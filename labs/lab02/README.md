@@ -116,7 +116,40 @@
 			System.out.println(itA.next());
 		}
         ```
-- Array de Array
+- Java Bean
+    -   ```sh
+        public class Animal {
+	
+            String nombre;
+            boolean genero;
+
+            public Animal(String nombre, boolean genero) {
+                super();
+                this.nombre = nombre;
+                this.genero = genero;
+            }
+            public String getNombre() {
+                return nombre;
+            }
+            public void setNombre(String nombre) {
+                this.nombre = nombre;
+            }
+            public boolean isGenero() {
+                return genero;
+            }
+            public void setGenero(boolean genero) {
+                this.genero = genero;
+            }
+            
+        }
+        ```
+    -   ```sh
+        ArrayList<Animal> mascotas = new ArrayList<Animal>();
+        ```
+    -   ```sh
+        List<Animal> mascotas2 = new List<Animal>(); /** <- Ver error */
+        List<Animal> mascotas2 = new ArrayList<Animal>();
+        ```
 
 ## EJERCICIOS PROPUESTOS
 - 1. Invertir un matriz de enteros (2 pts)
