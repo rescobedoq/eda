@@ -193,7 +193,7 @@
 
 2.  Pilas (6 puntos)
     -   Implementa una pila usando POO con tipos genéricos siguiendo los estándares de Java (los métodos para una pila) verifique: 
-    -   https://docs.oracle.com/javase/7/docs/api/java/util/Stack.htm
+    -   https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
 
 
 
