@@ -74,12 +74,12 @@
 ### OBJETIVOS
 
 - Estudiar el algoritmo de ordenamiento por inserción.
-- Utilizar Listas Enlazadas para guardar los datos.
+- Utilizar Listas Enlazadas para guardar los datos y ejecutar el algoritmo de ordenamiento.
 
 ### TEMAS
 -   Algoritmo de ordenamiento por inserción iterativo.
 -   Peor caso del algoritmo por inserción iterativo.
--   
+-   GNU Plot - Java Plot
 
 <details>
 <summary>COMPETENCIAS</summary>
