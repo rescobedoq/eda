@@ -30,7 +30,7 @@
 </theader>
 <tbody>
 <tr><td>ASIGNATURA:</td><td colspan="5">Estructura de Datos y Algoritmos</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Herencia y genericidad</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Técnicas de diseño de algoritmos (recursividad)</td></tr>
 <tr>
 <td>NÚMERO DE PRÁCTICA:</td><td>02</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
@@ -154,7 +154,7 @@
         ```
 
 ## EJERCICIOS PROPUESTOS
-- 1. Invertir un matriz de enteros (2 pts)
+- 1. Invertir un matriz de enteros 
 
     - Ejemplo:
     - A=[1 2 3]	->	Ain=[3 2 1]
@@ -170,7 +170,7 @@
         ```
 
 
-- 2. Rotación a la Izquierda (3 pts)
+- 2. Rotación a la Izquierda 
 
     - Ejemplo:
     - Si d=2
@@ -185,7 +185,7 @@
         }
         ```
 
-- 3. Triángulo recursivo (4 pts)
+- 3. Triángulo recursivo 
 
     - Ejemplo:
     - b=5
@@ -205,35 +205,7 @@
         }
         ```
 
-- 4. Lista (11 pts)
-    - Implementa una Lista usando POO con tipos genéricos siguiendo los estándares de Java. (Los métodos para una lista).
 
-    - https://docs.oracle.com/javase/7/docs/api/java/util/List.html
-
-    - Puede ignorar los siguientes métodos:
-        - hashCode()
-        - iterator()
-        - listIterator()
-        - listIterator(int index)
-        - retainAll(Collection<?> c)
-        - toArray()
-        - toArray(T[] a)
-
-    - (i) Implemente una clase Node<T> donde T es un tipo genérico, esta clase debe contener al menos dos propiedades. 
-
-    - https://docs.oracle.com/javase/tutorial/java/generics/types.html
-
-    -   ```sh 
-        T data: la información almacenada en el nodo
-        Node<T> nextNode: una referencia al siguiente nodo
-        ```
-
-    - (ii) Implementar una clase List<T> esta clase debe contener al menos esta propiedad
-    -   ```sh 
-        Node<T> root: la referencia sobre el nodo inicial
-        ```
-
-#
 
 ## CUESTIONARIO
 - ¿Qué diferencia hay entre un List y un ArrayList en Java?
