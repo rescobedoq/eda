@@ -30,12 +30,12 @@
 </theader>
 <tbody>
 <tr><td>ASIGNATURA:</td><td colspan="5">Estructura de Datos y Algoritmos</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Técnicas de diseño de algoritmos (recursividad)</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Herencia y genericidad</td></tr>
 <tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>02</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+<td>NÚMERO DE PRÁCTICA:</td><td>03</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
 <tr>
-<td>FECHA INICIO::</td><td>15-May-2023</td><td>FECHA FIN:</td><td>21-May-2023</td><td>DURACIÓN:</td><td>02 horas</td>
+<td>FECHA INICIO::</td><td>23-May-2023</td><td>FECHA FIN:</td><td>30-May-2023</td><td>DURACIÓN:</td><td>02 horas</td>
 </tr>
 <tr><td colspan="6">RECURSOS:
     <ul>
@@ -154,58 +154,36 @@
         ```
 
 ## EJERCICIOS PROPUESTOS
-- 1. Invertir un matriz de enteros 
 
-    - Ejemplo:
-    - A=[1 2 3]	->	Ain=[3 2 1]
+Lista 
+    - Implementa una Lista usando POO con tipos genéricos siguiendo los estándares de Java. (Los métodos para una lista).
 
+    - https://docs.oracle.com/javase/7/docs/api/java/util/List.html
 
-    -   ```sh 
-        public int[] invertirArray(int[] A){
-            /** */
-            //Procedimiento para invertir la matriz
-            /** */
-            return Ain;
-        }
-        ```
+    - Puede ignorar los siguientes métodos:
+        - hashCode()
+        - iterator()
+        - listIterator()
+        - listIterator(int index)
+        - retainAll(Collection<?> c)
+        - toArray()
+        - toArray(T[] a)
 
+    - (i) Implemente una clase Node<T> donde T es un tipo genérico, esta clase debe contener al menos dos propiedades. 
 
-- 2. Rotación a la Izquierda 
-
-    - Ejemplo:
-    - Si d=2
-    - A=[1 2 3 4 5]	->	Aiz=[3 4 5 1 2]
+    - https://docs.oracle.com/javase/tutorial/java/generics/types.html
 
     -   ```sh 
-        public int[] rotarIzquierdaArray(int[] A){
-            /** */
-            //Procedimiento para rotar la matriz
-            /** */
-            return Aiz;
-        }
+        T data: la información almacenada en el nodo
+        Node<T> nextNode: una referencia al siguiente nodo
         ```
 
-- 3. Triángulo recursivo 
-
-    - Ejemplo:
-    - b=5
+    - (ii) Implementar una clase List<T> esta clase debe contener al menos esta propiedad
     -   ```sh 
-        *
-        **
-        ***
-        ****
-        *****
+        Node<T> root: la referencia sobre el nodo inicial
         ```
 
-    -   ```sh 
-        public void trianguloRecursivo(int base){
-            /** */
-            //Procedimiento para imprimir triángulo
-            /** */
-        }
-        ```
-
-
+#
 
 ## CUESTIONARIO
 - ¿Qué diferencia hay entre un List y un ArrayList en Java?
